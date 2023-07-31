@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Área do Quadrado </title>
+        <style>
+            body
+            {
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+            }
+            .verde
+            {
+                 color: brown;
+            }
+            .v
+            {
+                 color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <script lang="JavaScript">
+            var aresta, area;
+
+            document.write("<h3 class='verde'> Informe o comprimento da aresta do quadrado para saber sua área.</h3>");
+           
+            aresta = window.prompt("Informe o comprimento da aresta do quadrado: ");
+            
+            document.write("<p class='v'> <b class='verde'> Aresta: </b> " + aresta + "</p>");
+
+            area = aresta * aresta;
+            document.write("<p class='v'> <b class='verde'>A área do quadrado é igual a: </b>" + area + "</p>");
+        </script>
+    </body>
+</html>

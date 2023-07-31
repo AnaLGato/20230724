@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> IMC </title>
+    </head>
+    <body>
+        <script lang="JavaScript">
+            var peso, altura, imc;
+
+            document.write("<h3> Informe seu peso e altura para saber se está ou não no peso ideal.</h3>");
+           
+            peso = parseFloat(window.prompt("Informe o seu peso: "));
+            altura = parseFloat(window.prompt("Informe a sua altura: "));
+           
+
+           document.write("<b>Peso: </b>" + peso + "<br><br> ");
+           document.write("<b>Altura: </b>" + altura + "<br><br>");
+
+            imc = peso / (altura * altura);
+      
+            if (imc<20)
+            {
+                document.write("<b>Você está abaixo do peso.</b>");
+            }
+            if(imc>=20 && imc<25)
+            {
+                document.write("<b>Você está com o peso ideal.</b>");
+            }
+            if (imc>=25)
+            {
+                document.write("<b>Você está acima do peso.</b>");
+            }
+        </script>
+    </body>
+</html>

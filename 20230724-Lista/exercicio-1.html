@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Área do retângulo </title>
+        <style>
+            body
+            {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+        <script lang="JavaScript">
+            var base, altura, area;
+
+            document.write("<h3> Informe os dados do retângulo para saber sua área.</h3>");
+           
+            base = window.prompt("Informe o comprimento da base do retângulo: ");
+            
+            document.write("<b>Base: </b>" + base + "<br><br> ");
+
+            altura = window.prompt("Informe a altura do retângulo: ");
+            document.write("<b>Altura: </b>" + altura + "<br><br>");
+
+            area = base * altura;
+            document.write("<b>A área do retângulo é igual a: </b>" + area);
+        </script>
+    </body>
+</html>
