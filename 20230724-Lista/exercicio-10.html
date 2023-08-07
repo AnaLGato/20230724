@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Valor Maior ou Valores Idênticos </title>
+    </head>
+    <body>
+        <script lang="JavaScript">
+            var n1, n2;
+
+            document.write("<h3> Informe dois valores para saber qual o maior.</h3>");
+
+            n1 = window.prompt("Informe o primeiro número: ");
+            n2 = window.prompt("Informe o segundo número: ");
+
+           document.write("<b>1° número: </b>" + n1 + "<br><br> ");
+           document.write("<b>2° número: </b>" + n2 + "<br><br>");
+
+            if(n1>n2)
+            {
+                document.write("<b>" + n1 + " é maior que "+ n2 + "</b> <br><br> ");
+            }
+            if(n2>n1)
+            {
+                document.write("<b>" + n2 + " é maior que "+ n1 + "</b> <br><br> ");
+            }
+            if(n2==n1)
+            {
+                document.write("<b> Os valores são idênticos.")
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Média Geométrica </title>
+    </head>
+    <body>
+        <script lang="JavaScript">
+            var n1, n2, mg;
+
+            document.write("<h3> Informe dois valores para saber a média geométrica.</h3>");
+           
+            n1 = window.prompt("Informe o primeiro número: ");
+            
+            document.write("<b>1° número: </b>" + n1 + "<br><br> ");
+
+            n2 = window.prompt("Informe o segundo número: ");
+            document.write("<b>2° número: </b>" + n2 + "<br><br>");
+
+            mg = Math.sqrt(n1*n2);
+            document.write("<b>A média geométrica dos dois valores é: </b>" + mg);
+        </script>
+    </body>
+</html>
